@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="uni.finalproject.GUIController">
+    <children>
+        <TextField fx:id="StudentLogInID" layoutX="200" layoutY="200" prefHeight="30" prefWidth="200" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="220" layoutY="160" prefHeight="30" prefWidth="150" text="StudentID" />
+        <Label fx:id="studentNotFound" layoutX="250.0" layoutY="300.0" prefHeight="28.0" prefWidth="149.0" />
+        <Button layoutX="241.0" layoutY="243.0" mnemonicParsing="false" onAction="#onStudentLogInButtonClick" prefHeight="28.0" prefWidth="108.0" text="Login" />
+    </children>
+</AnchorPane>

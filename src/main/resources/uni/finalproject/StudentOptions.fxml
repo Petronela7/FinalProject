@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="uni.finalproject.GUIController" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Label fx:id="studentNotFound" layoutX="250.0" layoutY="300.0" prefHeight="28.0" prefWidth="149.0" />
+        <TextField fx:id="studentID" layoutX="90.0" layoutY="110" promptText="Student ID" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="0.0" layoutY="60" prefHeight="30" prefWidth="500" text="Enter your ID and the ID of the course you want to register for:" />
+        <TextField fx:id="courseID" layoutX="90.0" layoutY="140" promptText="Course ID" />
+        <Button layoutX="300.0" layoutY="110.0" mnemonicParsing="false" onAction="#registerStudent" prefHeight="48.0" prefWidth="164.0" text="Register to course" />
+        <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="100.0" layoutY="205" prefHeight="30" prefWidth="500" text="Your total credits:" />
+        <Button layoutX="300.0" layoutY="200.0" mnemonicParsing="false" onAction="#showCredits" prefHeight="48.0" prefWidth="164.0" text="Show total credits " />
+        <Label fx:id="totalCredits" layoutX="210.0" layoutY="215" prefHeight="28.0" prefWidth="149.0" />
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="0.0" layoutY="500" prefHeight="30" prefWidth="500" text="Updates:" />
+        <Label fx:id="registrationChecker" alignment="CENTER" contentDisplay="CENTER" layoutX="290.0" layoutY="500" prefHeight="28.0" prefWidth="149.0" />
+    </children>
+</AnchorPane>
